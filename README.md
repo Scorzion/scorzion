@@ -6,9 +6,9 @@
 
 ## 🚀 About Me
 - 🎓 Second-year **Engineering Sciences** student at **IISER Bhopal**  
-- 💻 **Competitive Programmer** (CP) | Training for **ICPC World Finals** & **IQC 2025**  
-- 📈 **Quant Finance** & **HFT** aspirant | Targeting Optiver, Two Sigma, DE Shaw  
-- 🤖 Exploring **AI/ML** (TensorFlow, PyTorch)  
+- 💻 **Competitive Programmer** (CP) | Training for **ICPC World Finals** 
+- 📈 **Quant Finance** & **HFT** aspirant
+- 🔒 **Cryptography**
 - ⚡ **Core Philosophy**: *"Code, solve, repeat!"*  
 
 ---
