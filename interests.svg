@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 168" width="100%" height="168">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#151b23" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background base and grid -->
+  <rect width="100%" height="100%" fill="#0b0f17" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <style>
+    .section-title {
+      font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #5f6672;
+      letter-spacing: 1.5px;
+    }
+    .pill {
+      fill: #0d1117;
+      stroke: #21262d;
+      stroke-width: 1.5;
+    }
+    .pill-txt {
+      font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 11.5px;
+      fill: #8b949e;
+      text-anchor: middle;
+    }
+  </style>
+
+  <!-- Section Title -->
+  <text class="section-title" x="48" y="28">INTERESTS</text>
+
+  <!-- Row 1 -->
+  <!-- Pill 1: differential cryptanalysis -->
+  <rect class="pill" x="48" y="46" width="200" height="26" rx="13" />
+  <text class="pill-txt" x="148" y="63">differential cryptanalysis</text>
+
+  <!-- Pill 2: stream ciphers -->
+  <rect class="pill" x="256" y="46" width="124" height="26" rx="13" />
+  <text class="pill-txt" x="318" y="63">stream ciphers</text>
+
+  <!-- Pill 3: post-quantum crypto -->
+  <rect class="pill" x="388" y="46" width="166" height="26" rx="13" />
+  <text class="pill-txt" x="471" y="63">post-quantum crypto</text>
+
+  <!-- Pill 4: formal methods -->
+  <rect class="pill" x="562" y="46" width="124" height="26" rx="13" />
+  <text class="pill-txt" x="624" y="63">formal methods</text>
+
+  <!-- Row 2 -->
+  <!-- Pill 5: HFT infra -->
+  <rect class="pill" x="48" y="82" width="92" height="26" rx="13" />
+  <text class="pill-txt" x="94" y="99">HFT infra</text>
+
+  <!-- Pill 6: lock-free concurrency -->
+  <rect class="pill" x="148" y="82" width="180" height="26" rx="13" />
+  <text class="pill-txt" x="238" y="99">lock-free concurrency</text>
+
+  <!-- Pill 7: ML × cryptanalysis -->
+  <rect class="pill" x="336" y="82" width="162" height="26" rx="13" />
+  <text class="pill-txt" x="417" y="99">ML × cryptanalysis</text>
+
+  <!-- Pill 8: ZK proofs -->
+  <rect class="pill" x="506" y="82" width="92" height="26" rx="13" />
+  <text class="pill-txt" x="552" y="99">ZK proofs</text>
+
+  <!-- Row 3 -->
+  <!-- Pill 9: competitive programming -->
+  <rect class="pill" x="48" y="118" width="192" height="26" rx="13" />
+  <text class="pill-txt" x="144" y="135">competitive programming</text>
+</svg>

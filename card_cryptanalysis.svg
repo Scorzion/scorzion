@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%" height="120">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#151b23" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background base and grid -->
+  <rect width="100%" height="100%" fill="#0b0f17" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <style>
+    .card {
+      fill: #0d1117;
+      stroke: #21262d;
+      stroke-width: 1.5;
+    }
+    .badge-bg {
+      fill: #1b3224;
+    }
+    .badge-txt {
+      font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #3fb950;
+      text-anchor: middle;
+    }
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      fill: #c9d1d9;
+    }
+    .desc {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 12.5px;
+      fill: #8b949e;
+    }
+  </style>
+
+  <!-- Card container with rounded corners and border -->
+  <rect class="card" x="48" y="12" width="704" height="96" rx="6" />
+
+  <!-- Badge: Crypto -->
+  <rect class="badge-bg" x="68" y="30" width="60" height="20" rx="4" />
+  <text class="badge-txt" x="98" y="44">Crypto</text>
+
+  <!-- Project Title -->
+  <text class="title" x="140" y="45">Cryptanalysis Suite</text>
+
+  <!-- Description -->
+  <text class="desc" x="140" y="70">Salsa20 in CP-style C++. Differential + linear attacks on 4-round DES – DDT, LAT, K4 subkey recovery.</text>
+</svg>
