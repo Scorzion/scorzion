@@ -16,9 +16,8 @@
 <a href="https://www.codechef.com/users/scorzion" target="_blank"><img src="btn_codechef.svg" height="32" alt="CodeChef" /></a>&nbsp;&nbsp;
 <a href="https://github.com/scorzion/Competitive-Programming-journey" target="_blank"><img src="btn_cp_journey.svg" height="32" alt="CP Journey" /></a>
 
-<br/><br/>
-
 <div align="center">
+  <img src="cp_achievements.svg" width="100%" alt="Competitive Programming Achievements" />
   <img src="interests.svg" width="100%" alt="Interests" />
   <img src="reach_header.svg" width="100%" alt="Reach" />
 </div>

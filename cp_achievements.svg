@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 168" width="100%" height="168">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#151b23" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background base and grid -->
+  <rect width="100%" height="100%" fill="#0b0f17" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <style>
+    .content-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      fill: #8b949e;
+    }
+    .bold-txt {
+      font-weight: 600;
+      fill: #c9d1d9;
+    }
+    .bullet {
+      fill: #3fb950;
+      font-weight: bold;
+    }
+  </style>
+
+  <!-- Achievements list -->
+  <text class="content-text" x="48" y="32">
+    <!-- CF -->
+    <tspan class="bullet" x="48" dy="0">› </tspan>
+    <tspan class="bold-txt">Pupil</tspan> at Codeforces (Max Rating: 1208)
+    
+    <!-- CC -->
+    <tspan class="bullet" x="48" dy="24">› </tspan>
+    <tspan class="bold-txt">2 Star</tspan> at CodeChef (Max Rating: 1420)
+    
+    <!-- AC -->
+    <tspan class="bullet" x="48" dy="24">› </tspan>
+    <tspan class="bold-txt">Brown</tspan> at AtCoder (Max Rating: 470)
+    
+    <!-- IEEEXtreme -->
+    <tspan class="bullet" x="48" dy="24">› </tspan>
+    <tspan class="bold-txt">AIR 476</tspan> in IEEEXtreme 19.0 (Global Rank 1493)
+    
+    <!-- Reverse Coding -->
+    <tspan class="bullet" x="48" dy="24">› </tspan>
+    <tspan class="bold-txt">Finalist</tspan> in Reverse Coding by IIT Madras x IMC Trading
+  </text>
+</svg>
