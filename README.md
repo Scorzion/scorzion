@@ -1,5 +1,3 @@
-# sourav_
-
 <div align="center">
   <img src="header.svg" width="100%" alt="Sourav Sharma Header" />
   <img src="about.svg" width="100%" alt="About Me" />
