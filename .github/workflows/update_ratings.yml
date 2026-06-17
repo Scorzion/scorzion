@@ -1,0 +1,34 @@
+name: Update CP Ratings
+
+on:
+  schedule:
+    # Runs every 12 hours (at 00:00 and 12:00 UTC)
+    - cron: '0 */12 * * *'
+  workflow_dispatch: # Allows manual trigger from the Actions tab
+
+jobs:
+  update-ratings:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Rating Updater
+        run: python3 update_cp_ratings.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cp_achievements.svg
+          if git diff --staged --quiet; then
+            echo "No changes in ratings detected."
+          else
+            git commit -m "docs: auto-update CP ratings [skip ci]"
+            git push
+          fi

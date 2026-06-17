@@ -29,15 +29,15 @@
   <text class="content-text" x="48" y="32">
     <!-- CF -->
     <tspan class="bullet" x="48" dy="0">› </tspan>
-    <tspan class="bold-txt">Pupil</tspan> at Codeforces (Max Rating: 1208)
+    <tspan class="bold-txt">Newbie</tspan> at Codeforces (Rating: 976, Max: 1081)
     
     <!-- CC -->
     <tspan class="bullet" x="48" dy="24">› </tspan>
-    <tspan class="bold-txt">2 Star</tspan> at CodeChef (Max Rating: 1420)
+    <tspan class="bold-txt">2 Star</tspan> at CodeChef (Rating: 1417, Max: 1420)
     
     <!-- AC -->
     <tspan class="bullet" x="48" dy="24">› </tspan>
-    <tspan class="bold-txt">Brown</tspan> at AtCoder (Max Rating: 470)
+    <tspan class="bold-txt">Gray</tspan> at AtCoder (Rating: 136, Max: 191)
     
     <!-- IEEEXtreme -->
     <tspan class="bullet" x="48" dy="24">› </tspan>
