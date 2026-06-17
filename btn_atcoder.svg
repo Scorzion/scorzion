@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="32" viewBox="0 0 96 32">
-  <rect x="1" y="1" width="94" height="30" rx="6" fill="#0d1117" stroke="#1f3b5c" stroke-width="1.5" />
-  <text x="48" y="20" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12px" font-weight="600" fill="#58a6ff" text-anchor="middle">atcoder</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="32" viewBox="0 0 116 32">
+  <!-- Outer border -->
+  <rect x="1" y="1" width="114" height="30" rx="6" fill="#0d1117" stroke="#1f3b5c" stroke-width="1.5" />
+  
+  <!-- Stylized 'A' logo -->
+  <path d="M16 22 L21 10 L26 22 M18 18 H24" stroke="#58a6ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+  <!-- Label text -->
+  <text x="36" y="20" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12px" font-weight="600" fill="#58a6ff">atcoder</text>
 </svg>

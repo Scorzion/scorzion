@@ -1,4 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="114" height="32" viewBox="0 0 114 32">
-  <rect x="1" y="1" width="112" height="30" rx="6" fill="#0d1117" stroke="#1f3b5c" stroke-width="1.5" />
-  <text x="57" y="20" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12px" font-weight="600" fill="#58a6ff" text-anchor="middle">codeforces</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="136" height="32" viewBox="0 0 136 32">
+  <!-- Outer border -->
+  <rect x="1" y="1" width="134" height="30" rx="6" fill="#0d1117" stroke="#1f3b5c" stroke-width="1.5" />
+  
+  <!-- Codeforces logo -->
+  <rect x="16" y="13" width="3.5" height="9" rx="0.5" fill="#3182ce" />
+  <rect x="21" y="9" width="3.5" height="13" rx="0.5" fill="#e53e3e" />
+  <rect x="26" y="16" width="3.5" height="6" rx="0.5" fill="#ffd000" />
+
+  <!-- Label text -->
+  <text x="38" y="20" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12px" font-weight="600" fill="#58a6ff">codeforces</text>
 </svg>

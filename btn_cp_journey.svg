@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="32" viewBox="0 0 120 32">
-  <rect x="1" y="1" width="118" height="30" rx="6" fill="#0d1117" stroke="#1f3b5c" stroke-width="1.5" />
-  <text x="60" y="20" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12px" font-weight="600" fill="#58a6ff" text-anchor="middle">cp journey</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="32" viewBox="0 0 140 32">
+  <!-- Outer border -->
+  <rect x="1" y="1" width="138" height="30" rx="6" fill="#0d1117" stroke="#1f3b5c" stroke-width="1.5" />
+  
+  <!-- Code brackets logo -->
+  <path d="M19 19 L15 15 L19 11 M25 11 L29 15 L25 19 M23 10 L21 20" fill="none" stroke="#58a6ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Label text -->
+  <text x="36" y="20" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12px" font-weight="600" fill="#58a6ff">cp journey</text>
 </svg>

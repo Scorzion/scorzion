@@ -1,4 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="32" viewBox="0 0 100 32">
-  <rect x="1" y="1" width="98" height="30" rx="6" fill="#0d1117" stroke="#1f3b5c" stroke-width="1.5" />
-  <text x="50" y="20" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12px" font-weight="600" fill="#58a6ff" text-anchor="middle">codechef</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="122" height="32" viewBox="0 0 122 32">
+  <!-- Outer border -->
+  <rect x="1" y="1" width="120" height="30" rx="6" fill="#0d1117" stroke="#1f3b5c" stroke-width="1.5" />
+  
+  <!-- Chef Hat logo -->
+  <path d="M15 22 H27 M16 20 C16 18 15 17 15 15 C15 11 17 9 21 9 C25 9 27 11 27 15 C27 17 26 18 26 20" fill="none" stroke="#58a6ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="18" y="20" width="6" height="2" rx="0.5" fill="#58a6ff" />
+
+  <!-- Label text -->
+  <text x="36" y="20" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12px" font-weight="600" fill="#58a6ff">codechef</text>
 </svg>
