@@ -30,6 +30,3 @@
   <a href="https://www.linkedin.com/in/sourav-sharma-5318182b8/" target="_blank"><img src="btn_linkedin.svg" height="32" alt="LinkedIn" /></a>
 </div>
 
-<div align="center">
-  <a href="#footer"><img src="footer.svg" width="100%" alt="Footer" /></a>
-</div>
