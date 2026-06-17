@@ -34,9 +34,9 @@
 
   <!-- About Paragraph -->
   <text class="content-text" x="48" y="52">
-    <tspan x="48" dy="0">CS sophomore at IISER Bhopal with a concurrent research role at the <tspan class="bold-txt" fill="#e6edf3">IITB</tspan></tspan>
-    <tspan x="48" dy="22"><tspan class="bold-txt" fill="#e6edf3">Trust Lab</tspan> – formally verifying LLM-generated Rust using Miri, Clippy, and</tspan>
-    <tspan x="48" dy="22">proptest. When I'm not chasing undefined behaviour, I'm building <tspan class="bold-txt" fill="#e6edf3">HFT</tspan></tspan>
-    <tspan x="48" dy="22"><tspan class="bold-txt" fill="#e6edf3">infrastructure</tspan> or walking through differential cryptanalysis by hand.</tspan>
+    <tspan x="48" dy="0">CSE Junior at IISER Bhopal with a concurrent research role at the <tspan class="bold-txt" fill="#e6edf3">IITB</tspan></tspan>
+    <tspan x="48" dy="22"><tspan class="bold-txt" fill="#e6edf3">Trust Lab</tspan>, working on specification-driven verification of LLM-generated</tspan>
+    <tspan x="48" dy="22">Rust code. Outside verification research, I build low-latency systems in C++</tspan>
+    <tspan x="48" dy="22">and explore symmetric key cryptanalysis.</tspan>
   </text>
 </svg>

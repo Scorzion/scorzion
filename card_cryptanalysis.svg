@@ -49,5 +49,5 @@
   <text class="title" x="140" y="45">Cryptanalysis Suite</text>
 
   <!-- Description -->
-  <text class="desc" x="140" y="70">Salsa20 in CP-style C++. Differential + linear attacks on 4-round DES – DDT, LAT, K4 subkey recovery.</text>
+  <text class="desc" x="140" y="70">Salsa20 in CP-style C++. Differential + linear attacks on 4-round DES: DDT, LAT, K4 subkey recovery.</text>
 </svg>
