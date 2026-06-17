@@ -1,14 +1,14 @@
 <div align="center">
-  <img src="header.svg" width="100%" alt="Sourav Sharma Header" />
-  <img src="about.svg" width="100%" alt="About Me" />
-  <img src="experience.svg" width="100%" alt="Experience" />
-  <img src="tech_stack.svg" width="100%" alt="Tech Stack" />
-  <img src="building_header.svg" width="100%" alt="Building Section" />
+  <a href="#header"><img src="header.svg" width="100%" alt="Sourav Sharma Header" /></a>
+  <a href="#about"><img src="about.svg" width="100%" alt="About Me" /></a>
+  <a href="#experience"><img src="experience.svg" width="100%" alt="Experience" /></a>
+  <a href="#tech-stack"><img src="tech_stack.svg" width="100%" alt="Tech Stack" /></a>
+  <a href="#building"><img src="building_header.svg" width="100%" alt="Building Section" /></a>
   <a href="https://github.com/scorzion/NanoMatch"><img src="card_nanomatch.svg" width="100%" alt="NanoMatch" /></a>
   <a href="https://github.com/scorzion/titan-kv"><img src="card_titankv.svg" width="100%" alt="TitanKV" /></a>
   <a href="https://github.com/scorzion/Formal-Verification-Pipeline"><img src="card_verification.svg" width="100%" alt="Formal Verification Pipeline" /></a>
   <a href="https://github.com/scorzion/Crypto"><img src="card_cryptanalysis.svg" width="100%" alt="Cryptanalysis Suite" /></a>
-  <img src="cp_header.svg" width="100%" alt="Competitive Programming" />
+  <a href="#cp"><img src="cp_header.svg" width="100%" alt="Competitive Programming" /></a>
 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -18,9 +18,9 @@
 <a href="https://github.com/scorzion/Competitive-Programming-journey" target="_blank"><img src="btn_cp_journey.svg" height="32" alt="CP Journey" /></a>
 
 <div align="center">
-  <img src="cp_achievements.svg" width="100%" alt="Competitive Programming Achievements" />
-  <img src="interests.svg" width="100%" alt="Interests" />
-  <img src="reach_header.svg" width="100%" alt="Reach" />
+  <a href="#cp-achievements"><img src="cp_achievements.svg" width="100%" alt="Competitive Programming Achievements" /></a>
+  <a href="#interests"><img src="interests.svg" width="100%" alt="Interests" /></a>
+  <a href="#reach"><img src="reach_header.svg" width="100%" alt="Reach" /></a>
 </div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -31,5 +31,5 @@
 <br/><br/>
 
 <div align="center">
-  <img src="footer.svg" width="100%" alt="Footer" />
+  <a href="#footer"><img src="footer.svg" width="100%" alt="Footer" /></a>
 </div>
