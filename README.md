@@ -2,6 +2,7 @@
   <img src="header.svg" width="100%" alt="Sourav Sharma Header" />
   <img src="about.svg" width="100%" alt="About Me" />
   <img src="experience.svg" width="100%" alt="Experience" />
+  <img src="tech_stack.svg" width="100%" alt="Tech Stack" />
   <img src="building_header.svg" width="100%" alt="Building Section" />
   <a href="https://github.com/scorzion/NanoMatch"><img src="card_nanomatch.svg" width="100%" alt="NanoMatch" /></a>
   <a href="https://github.com/scorzion/titan-kv"><img src="card_titankv.svg" width="100%" alt="TitanKV" /></a>

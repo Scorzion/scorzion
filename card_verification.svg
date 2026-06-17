@@ -49,5 +49,6 @@
   <text class="title" x="128" y="45">Formal Verification Pipeline · IITB Trust Lab</text>
 
   <!-- Description -->
-  <text class="desc" x="128" y="70">C->Rust migration with automated safety proofs. Miri for UB, proptest for invariants, Clippy for idiom enforcement.</text>
+  <text class="desc" x="128" y="68">C->Rust migration with automated safety proofs. Miri for UB,</text>
+  <text class="desc" x="128" y="86">proptest for invariants, Clippy for idiom enforcement.</text>
 </svg>

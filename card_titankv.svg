@@ -49,5 +49,6 @@
   <text class="title" x="128" y="45">TitanKV</text>
 
   <!-- Description -->
-  <text class="desc" x="128" y="70">High-performance distributed LSM-Tree key-value store. Raft consensus replication, zero unsafe, gRPC network layer.</text>
+  <text class="desc" x="128" y="68">High-performance distributed LSM-Tree key-value store.</text>
+  <text class="desc" x="128" y="86">Raft consensus replication, zero unsafe, gRPC network layer.</text>
 </svg>

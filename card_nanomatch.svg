@@ -49,5 +49,6 @@
   <text class="title" x="124" y="45">NanoMatch</text>
 
   <!-- Description -->
-  <text class="desc" x="124" y="70">Ultra-low latency order matching engine. NASDAQ ITCH 5.0, lock-free SPSC queues, cache-aligned memory pools.</text>
+  <text class="desc" x="124" y="68">Ultra-low latency order matching engine. NASDAQ ITCH 5.0,</text>
+  <text class="desc" x="124" y="86">lock-free SPSC queues, cache-aligned memory pools.</text>
 </svg>
