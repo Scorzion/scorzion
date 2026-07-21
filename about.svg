@@ -34,7 +34,7 @@
 
   <!-- About Paragraph -->
   <text class="content-text" x="48" y="52">
-    <tspan x="48" dy="0">CSE Junior at IISER Bhopal with a concurrent research role at the <tspan class="bold-txt" fill="#e6edf3">IITB</tspan></tspan>
+    <tspan x="48" dy="0">DSE Junior at IISER Bhopal with a concurrent research role at the <tspan class="bold-txt" fill="#e6edf3">IITB</tspan></tspan>
     <tspan x="48" dy="22"><tspan class="bold-txt" fill="#e6edf3">Trust Lab</tspan>, working on specification-driven verification of LLM-generated</tspan>
     <tspan x="48" dy="22">Rust code. Outside verification research, I build low-latency systems in C++</tspan>
     <tspan x="48" dy="22">and explore symmetric key cryptanalysis.</tspan>
