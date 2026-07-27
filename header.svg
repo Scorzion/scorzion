@@ -70,28 +70,21 @@
   </text>
 
   <!-- Metrics Grid -->
-  <!-- Col 1: CGPA -->
-  <text class="metric-val" fill="#58a6ff" x="48" y="232">8.15</text>
-  <text class="metric-lbl" x="48" y="254">CGPA / 10</text>
+  <!-- Col 1: IEEEXTREME -->
+  <text class="metric-val" fill="#3fb950" x="48" y="232">AIR 476</text>
+  <text class="metric-lbl" x="48" y="254">IEEEXTREME</text>
 
   <!-- Divider 1 -->
-  <line class="separator" x1="170" y1="210" x2="170" y2="256" />
+  <line class="separator" x1="189" y1="210" x2="189" y2="256" />
 
-  <!-- Col 2: IEEEXTREME -->
-  <text class="metric-val" fill="#3fb950" x="194" y="232">AIR 476</text>
-  <text class="metric-lbl" x="194" y="254">IEEEXTREME</text>
+  <!-- Col 2: TRUST LAB -->
+  <text class="metric-val" fill="#db6d28" x="213" y="232">IITB</text>
+  <text class="metric-lbl" x="213" y="254">TRUST LAB</text>
 
   <!-- Divider 2 -->
-  <line class="separator" x1="335" y1="210" x2="335" y2="256" />
+  <line class="separator" x1="339" y1="210" x2="339" y2="256" />
 
-  <!-- Col 3: TRUST LAB -->
-  <text class="metric-val" fill="#db6d28" x="359" y="232">IITB</text>
-  <text class="metric-lbl" x="359" y="254">TRUST LAB</text>
-
-  <!-- Divider 3 -->
-  <line class="separator" x1="485" y1="210" x2="485" y2="256" />
-
-  <!-- Col 4: IISERB BATCH -->
-  <text class="metric-val" fill="#f78166" x="509" y="232">2028</text>
-  <text class="metric-lbl" x="509" y="254">IISERB BATCH</text>
+  <!-- Col 3: IISERB BATCH -->
+  <text class="metric-val" fill="#f78166" x="363" y="232">2028</text>
+  <text class="metric-lbl" x="363" y="254">IISERB BATCH</text>
 </svg>
