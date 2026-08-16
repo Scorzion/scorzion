@@ -3,8 +3,8 @@
   <a href="#about"><img src="about.svg" width="100%" alt="About Me" /></a>
   <a href="#experience"><img src="experience.svg" width="100%" alt="Experience" /></a>
   <a href="#achievements"><img src="achievements.svg" width="100%" alt="Achievements" /></a>
-
   <a href="#tech-stack"><img src="tech_stack.svg" width="100%" alt="Tech Stack" /></a>
+
 
   <a href="#building"><img src="building_header.svg" width="100%" alt="Building Section" /></a>
   <a href="https://github.com/scorzion/NanoMatch"><img src="card_nanomatch.svg" width="100%" alt="NanoMatch" /></a>

@@ -36,7 +36,7 @@
   <text class="section-title" x="48" y="28">ACHIEVEMENTS</text>
 
   <!-- Achievements list -->
-  <text class="content-text" x="48" y="58">
+  <text class="content-text" x="48" y="55">
     <!-- Item 1 -->
     <tspan class="bullet" x="48" dy="0">› </tspan>
     <tspan class="bold-txt">AIR 47</tspan> at SRMC 2026 Prelims by Jane Street
