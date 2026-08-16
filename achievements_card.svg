@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 114" width="100%" height="114">
   <defs>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#151b23" stroke-width="1.5"/>
+    <pattern id="grid_ach" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 0 24 H 24 M 24 0 V 24" fill="none" stroke="#151b23" stroke-width="1"/>
     </pattern>
   </defs>
 
   <!-- Background base and grid -->
   <rect width="100%" height="100%" fill="#0b0f17" />
-  <rect width="100%" height="100%" fill="url(#grid)" />
+  <rect width="100%" height="100%" fill="url(#grid_ach)" />
 
   <style>
     .section-title {

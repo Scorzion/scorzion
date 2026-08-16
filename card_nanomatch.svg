@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="100%" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 114" width="100%" height="114">
   <defs>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#151b23" stroke-width="1.5"/>
+    <pattern id="grid_nano" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 0 24 H 24 M 24 0 V 24" fill="none" stroke="#151b23" stroke-width="1"/>
     </pattern>
   </defs>
 
   <!-- Background base and grid -->
   <rect width="100%" height="100%" fill="#0b0f17" />
-  <rect width="100%" height="100%" fill="url(#grid)" />
+  <rect width="100%" height="100%" fill="url(#grid_nano)" />
 
   <style>
     .card {
@@ -39,16 +39,16 @@
   </style>
 
   <!-- Card container with rounded corners and border -->
-  <rect class="card" x="48" y="12" width="704" height="96" rx="6" />
+  <rect class="card" x="48" y="8" width="704" height="96" rx="6" />
 
   <!-- Badge: C++ -->
-  <rect class="badge-bg" x="68" y="30" width="44" height="20" rx="4" />
-  <text class="badge-txt" x="90" y="44">C++</text>
+  <rect class="badge-bg" x="68" y="26" width="44" height="20" rx="4" />
+  <text class="badge-txt" x="90" y="40">C++</text>
 
   <!-- Project Title -->
-  <text class="title" x="124" y="45">NanoMatch</text>
+  <text class="title" x="124" y="41">NanoMatch</text>
 
   <!-- Description -->
-  <text class="desc" x="124" y="68">Ultra-low latency order matching engine. NASDAQ ITCH 5.0,</text>
-  <text class="desc" x="124" y="86">lock-free SPSC queues, cache-aligned memory pools.</text>
+  <text class="desc" x="124" y="64">Ultra-low latency order matching engine. NASDAQ ITCH 5.0,</text>
+  <text class="desc" x="124" y="82">lock-free SPSC queues, cache-aligned memory pools.</text>
 </svg>
