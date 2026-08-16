@@ -135,12 +135,13 @@ def main():
     svg_content = re.sub(cf_pattern, cf_replacement, svg_content)
 
     cc_pattern = r"<!-- CC -->\s*<tspan class=\"bullet\"[^>]*>› </tspan>\s*<tspan class=\"bold-txt\"[^>]*>[^<]*</tspan> at CodeChef \([^\)]*\)"
-    cc_replacement = f'<!-- CC -->\n    <tspan class="bullet" x="48" dy="24">› </tspan>\n    <tspan class="bold-txt" style="fill: {cc_color}">{cc_stars} Star</tspan> at CodeChef (Rating: {cc_rating}, Max: {cc_max})'
+    cc_replacement = f'<!-- CC -->\n    <tspan class="bullet" x="48" dy="22">› </tspan>\n    <tspan class="bold-txt" style="fill: {cc_color}">{cc_stars} Star</tspan> at CodeChef (Rating: {cc_rating}, Max: {cc_max})'
     svg_content = re.sub(cc_pattern, cc_replacement, svg_content)
 
     ac_pattern = r"<!-- AC -->\s*<tspan class=\"bullet\"[^>]*>› </tspan>\s*<tspan class=\"bold-txt\"[^>]*>[^<]*</tspan> at AtCoder \([^\)]*\)"
-    ac_replacement = f'<!-- AC -->\n    <tspan class="bullet" x="48" dy="24">› </tspan>\n    <tspan class="bold-txt" style="fill: {ac_color_hex}">{ac_color}</tspan> at AtCoder (Rating: {ac_rating}, Max: {ac_max})'
+    ac_replacement = f'<!-- AC -->\n    <tspan class="bullet" x="48" dy="22">› </tspan>\n    <tspan class="bold-txt" style="fill: {ac_color_hex}">{ac_color}</tspan> at AtCoder (Rating: {ac_rating}, Max: {ac_max})'
     svg_content = re.sub(ac_pattern, ac_replacement, svg_content)
+
 
     with open(svg_path, "w", encoding="utf-8") as f:
         f.write(svg_content)

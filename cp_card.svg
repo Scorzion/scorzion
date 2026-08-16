@@ -39,7 +39,7 @@
   <text class="content-text" x="48" y="46">
     <!-- CF -->
     <tspan class="bullet" x="48" dy="0">› </tspan>
-    <tspan class="bold-txt" style="fill: #3fb950">Pupil</tspan> at Codeforces (Rating: 1225, Max: 1225)
+    <tspan class="bold-txt" style="fill: #a0a0a0">Newbie</tspan> at Codeforces (Rating: 1189, Max: 1226)
     
     <!-- CC -->
     <tspan class="bullet" x="48" dy="22">› </tspan>
@@ -47,6 +47,6 @@
     
     <!-- AC -->
     <tspan class="bullet" x="48" dy="22">› </tspan>
-    <tspan class="bold-txt" style="fill: #a0a0a0">Gray</tspan> at AtCoder (Rating: 136, Max: 191)
+    <tspan class="bold-txt" style="fill: #a0a0a0">Gray</tspan> at AtCoder (Rating: 344, Max: 344)
   </text>
 </svg>
