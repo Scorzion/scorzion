@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 144" width="100%" height="144">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 124" width="100%" height="124">
   <defs>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#151b23" stroke-width="1.5"/>
@@ -30,10 +30,10 @@
   </style>
 
   <!-- Section Title -->
-  <text class="section-title" x="48" y="24">ABOUT</text>
+  <text class="section-title" x="48" y="22">ABOUT</text>
 
   <!-- About Paragraph -->
-  <text class="content-text" x="48" y="52">
+  <text class="content-text" x="48" y="46">
     <tspan x="48" dy="0">DSE Junior at IISER Bhopal with a concurrent research role at the <tspan class="bold-txt" fill="#e6edf3">IITB</tspan></tspan>
     <tspan x="48" dy="22"><tspan class="bold-txt" fill="#e6edf3">Trust Lab</tspan>, working on specification-driven verification of LLM-generated</tspan>
     <tspan x="48" dy="22">Rust code. Outside verification research, I build low-latency systems in C++</tspan>
