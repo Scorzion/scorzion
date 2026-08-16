@@ -11,7 +11,8 @@ def fetch_cf():
     res = json.loads(urllib.request.urlopen(req).read().decode("utf-8"))
     cf_rating = res["result"][0]["rating"]
     cf_max_rating = res["result"][0]["maxRating"]
-    cf_rank = res["result"][0]["rank"].title()
+    # Use maxRank so the rank title always reflects the peak rating
+    cf_rank = res["result"][0].get("maxRank", res["result"][0]["rank"]).title()
     return cf_rank, cf_rating, cf_max_rating
 
 def fetch_codechef():
@@ -26,12 +27,17 @@ def fetch_codechef():
     cc_rating = int(rating_match.group(1)) if rating_match else 0
     cc_max = int(highest_match.group(1)) if highest_match else 0
     
-    # Calculate stars
-    cc_stars = 0
-    if "class=\"rating-star\"" in html:
-        star_block = html.split('class="rating-star"')[1].split('</div>')[0]
-        cc_stars = len(re.findall(r'&#9733;', star_block))
-        
+    # Calculate stars based on highest (max) rating
+    def get_stars(rating):
+        if rating < 1400: return 1
+        if rating < 1600: return 2
+        if rating < 1800: return 3
+        if rating < 2000: return 4
+        if rating < 2200: return 5
+        if rating < 2500: return 6
+        return 7
+
+    cc_stars = get_stars(cc_max)
     return cc_stars, cc_rating, cc_max
 
 def fetch_atcoder():
@@ -56,7 +62,9 @@ def fetch_atcoder():
         if rating < 2800: return "Orange"
         return "Red"
         
-    return get_color(ac_rating), ac_rating, ac_max
+    # Determine color based on highest (max) rating
+    return get_color(ac_max), ac_rating, ac_max
+
 
 def get_cf_color(rank):
     r = rank.lower()
