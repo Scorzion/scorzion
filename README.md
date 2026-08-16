@@ -2,7 +2,7 @@
   <a href="#header"><img src="header.svg" width="100%" alt="Sourav Sharma Header" /></a>
   <a href="#about"><img src="about.svg" width="100%" alt="About Me" /></a>
   <a href="#experience"><img src="experience.svg" width="100%" alt="Experience" /></a>
-  <a href="#achievements"><img src="achievements.svg?v=1" width="100%" alt="Achievements" /></a>
+  <a href="#achievements"><img src="achievements_card.svg" width="100%" alt="Achievements" /></a>
   <a href="#tech-stack"><img src="tech_stack.svg" width="100%" alt="Tech Stack" /></a>
 
   <a href="#building"><img src="building_header.svg" width="100%" alt="Building Section" /></a>
@@ -11,7 +11,8 @@
   <a href="https://github.com/scorzion/Formal-Verification-Pipeline"><img src="card_verification.svg" width="100%" alt="Formal Verification Pipeline" /></a>
   <a href="https://github.com/scorzion/Crypto"><img src="card_cryptanalysis.svg" width="100%" alt="Cryptanalysis Suite" /></a>
   <a href="#cp"><img src="cp_header.svg" width="100%" alt="Competitive Programming" /></a>
-  <a href="https://github.com/scorzion/Competitive-Programming-journey"><img src="cp_achievements.svg?v=1" width="100%" alt="CP Achievements & Journey" /></a>
+  <a href="https://github.com/scorzion/Competitive-Programming-journey"><img src="cp_achievements_card.svg" width="100%" alt="CP Achievements & Journey" /></a>
+
 
 </div>
 
