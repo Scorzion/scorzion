@@ -10,8 +10,8 @@
   <a href="https://github.com/scorzion/titan-kv"><img src="card_titankv.svg" width="100%" alt="TitanKV" /></a>
   <a href="https://github.com/scorzion/Formal-Verification-Pipeline"><img src="card_verification.svg" width="100%" alt="Formal Verification Pipeline" /></a>
   <a href="https://github.com/scorzion/Crypto"><img src="card_cryptanalysis.svg" width="100%" alt="Cryptanalysis Suite" /></a>
-  <a href="#cp"><img src="cp_header.svg" width="100%" alt="Competitive Programming" /></a>
-  <a href="https://github.com/scorzion/Competitive-Programming-journey"><img src="cp_achievements_card.svg" width="100%" alt="CP Achievements & Journey" /></a>
+  <a href="https://github.com/scorzion/Competitive-Programming-journey"><img src="cp_card.svg" width="100%" alt="Competitive Programming & Journey" /></a>
+
 
 
 </div>

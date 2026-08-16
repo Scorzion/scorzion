@@ -115,10 +115,11 @@ def main():
         print(f"Error fetching AtCoder: {e}")
         return
 
-    svg_path = "cp_achievements_card.svg"
+    svg_path = "cp_card.svg"
     if not os.path.exists(svg_path):
         print(f"File not found: {svg_path}")
         return
+
 
 
     with open(svg_path, "r", encoding="utf-8") as f:
