@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="#header"><img src="header_banner.svg" width="100%" alt="Sourav Sharma Header" /></a>
+  <a href="https://sourav-portfolio-five.vercel.app" target="_blank"><img src="header_banner.svg" width="100%" alt="Sourav Sharma Header" /></a>
   <a href="#about"><img src="about.svg" width="100%" alt="About Me" /></a>
   <a href="#experience"><img src="experience_v2.svg" width="100%" alt="Experience" /></a>
   <a href="#achievements"><img src="achievements_card.svg" width="100%" alt="Achievements" /></a>
@@ -16,6 +16,7 @@
 </div>
 
 <div align="center">
+  <a href="https://sourav-portfolio-five.vercel.app" target="_blank"><img src="btn_portfolio.svg" height="32" alt="Portfolio" /></a>
   <a href="https://github.com/scorzion/Competitive-Programming-journey" target="_blank"><img src="btn_cp_journey.svg" height="32" alt="CP Journey" /></a>
   <a href="https://sourav-portfolio-five.vercel.app/contact" target="_blank"><img src="btn_contact.svg" height="32" alt="Contact" /></a>
   <a href="mailto:sourav31vforce@gmail.com" target="_blank"><img src="btn_email.svg" height="32" alt="Email" /></a>

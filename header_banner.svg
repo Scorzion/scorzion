@@ -72,9 +72,9 @@
   </text>
 
   <!-- Metrics Grid -->
-  <!-- Col 1: IEEEXTREME -->
-  <text class="metric-val" fill="#3fb950" x="48" y="232">AIR 476</text>
-  <text class="metric-lbl" x="48" y="254">IEEEXTREME</text>
+  <!-- Col 1: IISERB -->
+  <text class="metric-val" fill="#3fb950" x="48" y="232">IISERB</text>
+  <text class="metric-lbl" x="48" y="254">B.TECH DSE</text>
 
   <!-- Divider 1 -->
   <line class="separator" x1="189" y1="210" x2="189" y2="256" />
@@ -86,7 +86,7 @@
   <!-- Divider 2 -->
   <line class="separator" x1="339" y1="210" x2="339" y2="256" />
 
-  <!-- Col 3: IISERB BATCH -->
-  <text class="metric-val" fill="#f78166" x="363" y="232">2028</text>
-  <text class="metric-lbl" x="363" y="254">IISERB BATCH</text>
+  <!-- Col 3: SRMC BY JANE STREET -->
+  <text class="metric-val" fill="#f78166" x="363" y="232">AIR 47</text>
+  <text class="metric-lbl" x="363" y="254">SRMC BY JANE STREET</text>
 </svg>
